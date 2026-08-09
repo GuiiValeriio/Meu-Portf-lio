@@ -1,0 +1,21 @@
+h1{     text-align: center;
+        color:rgba(230, 237, 243, 1)}
+
+h2{     text-align: center;
+        color:rgba(230, 237, 243, 1) ;}
+
+p{      text-align: center;
+        margin: 5px;}
+
+ul{     list-style-position: inside;
+        text-align: center;
+        padding: 0;}
+
+a{      display: inline;
+    }
+
+body{   background-color:rgba(5, 10, 20, 1);
+        color:rgba(139, 148, 158, 1);
+        text-align: center;    
+    }
+     
