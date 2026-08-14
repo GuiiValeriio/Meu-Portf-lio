@@ -1,4 +1,11 @@
 const botao = document.getElementById("contato");
-    botao.addEventListener("click", function() {
-    alert("Obrigado por entrar em contato!");
+let temporizador  
+botao.addEventListener("click", function() {
+    botao.textContent = "Mensagem enviada!";
+
+    clearTimeout(temporizador);
+    
+    temporizador = setTimeout(function(){
+        botao.textContent = "Entrar em contato";
+    },2000);
 });
